@@ -1,0 +1,12 @@
+@Relation StuProf_test
+
+@Attribute Habits {Gabby,Quiet}
+@Attribute Eats {Baked,Roasted,Fried}
+@Attribute Footwear {Clogs,Sandals}
+@Attribute Class {Student,Professor}
+
+@Data
+Quiet,Baked,Clogs,Student
+Quiet,Roasted,Sandals,Professor
+Gabby,Roasted,Clogs,Student
+Quiet,Roasted,Clogs,Student
